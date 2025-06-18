@@ -23,7 +23,8 @@ A basic, responsive calculator built using HTML, CSS, and JavaScript. It support
 
 ## 📸 Screenshot
 
-*(You can add a screenshot here)*
+![image](https://github.com/user-attachments/assets/8dcb9078-d42b-4fd3-9f9b-9eb12f4e7582)
+
 
 ## 📜 License
 
