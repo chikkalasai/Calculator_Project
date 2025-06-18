@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+body div{
+    border-radius: 5px;
+    background-color: black;
+}
+
+
+
+#container{
+    border: 2px solid black;
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    border: 1px solid black;
+    gap: 10px;
+    
+}
+
+
+
+#container #head{
+    grid-column: 1 / 4;
+    align-content: center;
+    text-align: center;
+    border: 1px solid black;
+    background-color: rgb(19, 183, 186);
+    height: 100px;
+}
+#container #footer{
+    grid-column: 1 / 4;
+    border: 1px solid black;
+    text-align: center;
+}
+
+
+#content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid rgb(11, 165, 216);
+    background-color: rgb(27, 27, 27);
+}
+#calculator{
+    border: 2px solid  rgb(0, 0, 0);
+    height: 550px;
+    width: 370px;
+    margin: 30px;
+    background-color: rgb(24, 23, 23);
+    
+}
+#calculatorheader{
+    height: 50px;
+}
+
+#calculatorheader >button{
+    color: rgb(255, 255, 255);
+    font-size: larger;
+    float: right;
+    height: 30px;
+    width: 30px;
+    margin-top: 3px;
+    margin-right: 3px;
+    border: transparent;
+    background-color: transparent;
+}
+
+#calculatorheader >button:hover{
+    background-color: red;
+}
+
+#symbols{
+    height: 30px;
+    color: rgb(255, 255, 255);
+    font-size: larger;
+}
+
+
+#input{
+    height: 55px;
+    width: 98%;
+    text-align: end;
+    caret-color: transparent;
+    font-size: xx-large;
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    background-color: black;
+    margin-top: 25px;
+
+}
+
+#dropdown{
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+#dropdown button{
+    height: 40px;
+    width: 60px;
+    background-color: rgb(51, 52, 52);
+    color: white;
+    font-size: large;
+}
+#dropdown button:hover{
+    background-color: black;
+}
+
+#buttons{
+    
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    border-radius: 5px;
+    margin: 10px 2px 2px 2px;
+    background-color: rgb(44, 43, 43);
+   
+}
+#buttons button{
+    color: rgb(255, 255, 255);
+    height: 54px;
+    border-radius: 5px;
+    background-color: rgb(29, 28, 28);
+    font-size: large;
+}
+
+#buttons :hover{
+    background-color: black;
+}
+
